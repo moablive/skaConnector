@@ -9,7 +9,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Reflection;
+
 using System.Runtime.InteropServices;
 
 namespace IntegradorEscolaDev
@@ -48,7 +48,7 @@ namespace IntegradorEscolaDev
 
         #region Event Handler Variables
         Hashtable openDocs = new Hashtable();
-        SolidWorks.Interop.sldworks.SldWorks SwEventPtr = null;
+        SldWorks SwEventPtr = null;
         #endregion
 
         #region Property Manager Variables
@@ -164,7 +164,7 @@ namespace IntegradorEscolaDev
             iSwApp.SetAddinCallbackInfo(0, this, addinID);
 
             string CaminhoIcone = System.Reflection.Assembly.GetAssembly(this.GetType()).Location.ToUpper().Replace("INTEGRADORESCOLADEV.DLL", "") + "SKA.ico";
-            tpv = iSwApp.CreateTaskpaneView2(CaminhoIcone, "SKAConnector SolidWorks Escola DEV");
+            tpv = iSwApp.CreateTaskpaneView2(CaminhoIcone, "SKAConnector - v0.0.1");
             tpv.AddControl("IntegradorEscolaDev.InterfaceSW", "");
 
             TaskPaneUserControl = (InterfaceSW)this.tpv.GetControl();
@@ -175,7 +175,7 @@ namespace IntegradorEscolaDev
             #endregion
 
             #region Setup the Event Handlers
-            SwEventPtr = (SolidWorks.Interop.sldworks.SldWorks)iSwApp;
+            SwEventPtr = (SldWorks)iSwApp;
             openDocs = new Hashtable();
             AttachEventHandlers();
             #endregion

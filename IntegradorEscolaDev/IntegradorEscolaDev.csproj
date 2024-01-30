@@ -98,19 +98,28 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="SolidWorks.Interop.sldworks">
-      <HintPath>..\..\..\..\..\..\Program Files\SOLIDWORKS Corp\SOLIDWORKS\\SolidWorks.Interop.sldworks.dll</HintPath>
+      <HintPath>..\Dll\SolidWorks.Interop.sldworks.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swcommands">
+      <HintPath>..\Dll\SolidWorks.Interop.swcommands.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swconst">
-      <HintPath>..\..\..\..\..\..\Program Files\SOLIDWORKS Corp\SOLIDWORKS\\SolidWorks.Interop.swconst.dll</HintPath>
+      <HintPath>..\Dll\SolidWorks.Interop.swconst.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swdocumentmgr">
+      <HintPath>..\Dll\SolidWorks.Interop.swdocumentmgr.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SolidWorks.Interop.swpublished">
-      <HintPath>..\..\..\..\..\..\Program Files\SOLIDWORKS Corp\SOLIDWORKS\\SolidWorks.Interop.swpublished.dll</HintPath>
+      <HintPath>..\Dll\SolidWorks.Interop.swpublished.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
-    <Reference Include="SolidWorksTools">
-      <HintPath>..\..\..\..\..\..\Program Files\SOLIDWORKS Corp\SOLIDWORKS\\SolidWorksTools.dll</HintPath>
+    <Reference Include="solidworkstools, Version=2.0.0.0, Culture=neutral, PublicKeyToken=bd18593873b4686d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\solidworkstools.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -127,10 +136,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Db\SqlQuery.cs" />
+    <Compile Include="Db\SqlServer.cs" />
+    <Compile Include="Message\GlobalMessage.cs" />
+    <Compile Include="Models\PropriedadesConfigModel.cs" />
+    <Compile Include="Models\SqlServerConfigModel.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ska\SkaConfig.cs" />
     <Compile Include="SolidWorks\Addin\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SolidWorks\Addin\EventHandling.cs" />
+    <Compile Include="SolidWorks\swFiles.cs" />
+    <Compile Include="SolidWorks\SwAPI.cs" />
+    <Compile Include="SolidWorks\SwProps.cs" />
+    <Compile Include="View\Clean.cs" />
     <Compile Include="View\InterfaceSW.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -142,6 +166,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SolidWorks\Addin\UserPMPage.cs" />
+    <Compile Include="View\LoadSqlQuery.cs" />
+    <Compile Include="View\LoadXml.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\InterfaceSW.resx">
       <DependentUpon>InterfaceSW.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,7 +184,433 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Db\" />
+    <Folder Include="Enum\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 316.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 316%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 336.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 336%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 348.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 348%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 826.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 826%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 827.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 827%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 828.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 828%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 829.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 829%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 830.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 830%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 831.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 831%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 832.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 832%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 833.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 833%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 834.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 834%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 835.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 835%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 836.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 836%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 837.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 837%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 838.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 838%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 839.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 839%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 840.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 840%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 841.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 841%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 842.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 842%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 843.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 843%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 844.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 844%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 845.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 845%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 846.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 846%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 847.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 847%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 848.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 848%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 849.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 849%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 850.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 850%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 851.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 851%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 852.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 852%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 853.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 853%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 854.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 854%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 855.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 855%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 856.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 856%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 857.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 857%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 858.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 858%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 859.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 859%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 860.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 860%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 861.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 861%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 862.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 862%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 863.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 863%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 864%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 865%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 866%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 867%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 868%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 869.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 869%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 870.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 870%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 871.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 871%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 872.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 872%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 873.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 873%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 874.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 874%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 875.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 875%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 876.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 876%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 877.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 877%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 878.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 878%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 879.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 879%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 880.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 880%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 881.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 881%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 882.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 882%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 883.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 883%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 884.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 884%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 885.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 885%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 886.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 886%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 888.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 888%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 889.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 889%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 890.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 890%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 917.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 917%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 924.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 924%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 931.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 931%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 938.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Grupo 938%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

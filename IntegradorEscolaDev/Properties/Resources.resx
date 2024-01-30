@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Grupo 316" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 316.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 316@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 316@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 336" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 336.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 336@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 336@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 348" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 348.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 348@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 348@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 826" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 826.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 826@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 826@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 827" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 827.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 827@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 827@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 828" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 828.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 828@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 828@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 829" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 829.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 829@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 829@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 830" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 830.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 830@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 830@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 831" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 831.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 831@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 831@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 832" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 832.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 832@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 832@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 833" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 833.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 833@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 833@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 834" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 834.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 834@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 834@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 835" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 835.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 835@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 835@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 836" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 836.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 836@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 836@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 837" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 837.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 837@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 837@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 838" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 838.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 838@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 838@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 839" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 839.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 839@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 839@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 840" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 840.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 840@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 840@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 841" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 841.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 841@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 841@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 842" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 842.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 842@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 842@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 843" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 843.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 843@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 843@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 844" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 844.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 844@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 844@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 845" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 845.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 845@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 845@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 846" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 846.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 846@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 846@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 847" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 847.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 847@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 847@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 848" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 848.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 848@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 848@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 849" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 849.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 849@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 849@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 850" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 850.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 850@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 850@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 851" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 851.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 851@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 851@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 852" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 852.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 852@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 852@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 853" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 853.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 853@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 853@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 854" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 854.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 854@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 854@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 855" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 855.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 855@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 855@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 856" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 856.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 856@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 856@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 857" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 857.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 857@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 857@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 858" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 858.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 858@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 858@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 859" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 859.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 859@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 859@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 860" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 860.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 860@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 860@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 861" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 861.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 861@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 861@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 862" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 862.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 862@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 862@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 863" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 863.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 863@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 863@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 864" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 864.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 864@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 864@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 865" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 865.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 865@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 865@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 866" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 866.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 866@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 866@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 867" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 867.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 867@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 867@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 868" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 868.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 868@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 868@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 869" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 869.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 869@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 869@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 870" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 870.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 870@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 870@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 871" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 871.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 871@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 871@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 872" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 872.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 872@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 872@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 873" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 873.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 873@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 873@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 874" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 874.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 874@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 874@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 875" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 875.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 875@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 875@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 876" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 876.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 876@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 876@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 877" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 877.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 877@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 877@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 878" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 878.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 878@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 878@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 879" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 879.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 879@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 879@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 880" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 880.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 880@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 880@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 881.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 881@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 881@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 882" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 882.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 882@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 882@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 883" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 883.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 883@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 883@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 884" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 884.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 884@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 884@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 885" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 885.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 885@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 885@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 886" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 886.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 886@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 886@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 888" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 888.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 888@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 888@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 889" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 889.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 889@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 889@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 890" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 890.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 890@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 890@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 917" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 917.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 917@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 917@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 924" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 924.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 924@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 924@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 931" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 931.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 931@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 931@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 938" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 938.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo 938@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Grupo 938@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

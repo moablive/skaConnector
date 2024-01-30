@@ -18,3 +18,15 @@ C:\Users\guilherme.bonato\Desktop\IntegradorEscolaDev\IntegradorEscolaDev\obj\De
 C:\Users\guilherme.bonato\Desktop\IntegradorEscolaDev\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.csproj.CopyComplete
 C:\Users\guilherme.bonato\Desktop\IntegradorEscolaDev\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.dll
 C:\Users\guilherme.bonato\Desktop\IntegradorEscolaDev\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.pdb
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\bin\Debug\IntegradorEscolaDev.dll
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\bin\Debug\IntegradorEscolaDev.pdb
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\bin\Debug\IntegradorEscolaDev.tlb
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\bin\Debug\solidworkstools.dll
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.csproj.AssemblyReference.cache
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.Properties.Resources.resources
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.InterfaceSW.resources
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.csproj.GenerateResource.cache
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.csproj.CoreCompileInputs.cache
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.csproj.CopyComplete
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.dll
+C:\Developer\ska\!Projects\skaConnector\IntegradorEscolaDev\obj\Debug\IntegradorEscolaDev.pdb
